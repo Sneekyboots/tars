@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev)",
+      "Bash(npm run build)",
+      "Bash(npm install*)",
+      "Bash(npm run lint)",
+      "Bash(anchor build)",
+      "Bash(anchor test)",
+      "Bash(anchor deploy*)",
+      "Bash(anchor keys sync)",
+      "Bash(solana airdrop*)",
+      "Bash(solana balance*)",
+      "Bash(solana config*)",
+      "Bash(cargo build*)",
+      "Bash(cargo test*)",
+      "Bash(git status)",
+      "Bash(git diff*)",
+      "Bash(git log*)"
+    ]
+  },
+  "mcpServers": {
+    "solana-mcp-server": {
+      "type": "http",
+      "url": "https://mcp.solana.com/mcp"
+    }
+  }
+}
