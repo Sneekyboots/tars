@@ -50,3 +50,6 @@ next-env.d.ts
 /anchor/target/.rustc_info.json
 test-ledger
 **/*.rs.bk
+
+# TARS Python backend — has its own repo
+tarsv2/
